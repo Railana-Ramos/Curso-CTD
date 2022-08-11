@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2? family= Abel & display=swap');
+
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: #E2F0F7;
+    color: #3D8AA4;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    color: #845EC2;
+    margin: 20px 0px 20px 0px;
+}
+
+.cenoura{
+    display: inline;
+    width: 200px;
+}
+
+.cenoura2{
+    display: inline;
+    width: 200px;
+}
+
+a {
+    display: block;
+}

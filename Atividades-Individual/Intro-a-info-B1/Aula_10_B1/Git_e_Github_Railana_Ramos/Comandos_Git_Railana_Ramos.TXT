@@ -1,0 +1,55 @@
+Adicionei aqui com alguns comandos básicos que eu aprendi, alguns não terão sintaxe pois a sintaxe já está na explicação ou é o próprio comando.
+
+							Codigos de Inicialização:
+
+Git init: Iniciar um repositório local. 
+
+Git config --global user.name: Adiciona um nome de usuário para todos os repositórios do GIT, assim aparecerá quando fizermos alguma alteração.
+Sintaxe: git config --global Railana Ramos.
+
+Git config --global user.email: Adiciona um email (do Github) para todos os repositórios do GIT, assim aparecerá quando fizermos alguma alteração.
+Sintaxe: git config --global railanaramos@gmail.com
+(Sem utilizar o "global" podemos ter um nome de usuário ou email unicamente para aquele repositório.)
+
+
+							Codigos de Modificação:
+
+Git add .: Adiciona todos os arquivos ou modificações para o repositório local.
+Git add "arquivo": Adiciona um arquivo em especifico para o repositório local. 
+
+Git status: Mostra o status do seu repositório, como modificações. 
+
+Git commit -m "Seu comentário aqui": Ele é necessário para nos manter informados sobre alterações em um determinado arquivo, sendo utilizado como uma confirmação.
+Sintaxe: git commit -m "Adicionando o index.html atualizado". 
+
+
+							Codigos de Transferência:
+
+Git remote add origin "Link" = Utilizado para informar o local do repositório remoto. 
+Sintaxe: git remote add origin https://github.com/Railana-Ramos/Curso-CTD
+
+Git push: Ele adiciona um arquivo de seu repositório local para o repositório remoto, nesse caso, o github.
+Sintaxe: git push origin main (Irá adicionar as alterações na main do repositório remoto).
+
+Git remote -V: Serve para informar qual o repositório remoto está sendo utilizado.
+
+Git pull : Serve para trazer os itens do repositório remoto para o repositório local.
+Sintaxe: git pull origin main (Irá pegar os arquivos da main do repositório remoto e trazer para o local)
+
+Git clone : Serve para clonar um repositório já existente, muito utilizado em grupos de trabalho ou projetos com mais de uma pessoa.
+Sintaxe: git clone https://github.com/Railana-Ramos/Curso-CTD. 
+(Lembrando que nesse caso, outra pessoa irá precisar da minha permissão para modificar o projeto.) 
+
+							Codigos sobre Branchs
+
+Git checkout -b "Nova Branch": Serve para criar uma nova Branch em seu repositório, imagine isso como galhos criados por um código, sendo a "main" o seu tronco.
+Podemos modificar o que quiser nessa branch sem alterar a principal, porém se quisermos, podemos passar para a principal. 
+Sintaxe: git checkout -b Railana_Ramos 
+(Não sei se necessita do -b, mas na minha máquina só funcionou com o b, inclusive para mudar de branch). 
+
+Git checkout: Serve para mostrar em qual branch você está atualmente no terminal. 
+(Não sei ao certo se esse é o código correto para tal ação, mas na minha máquina funcionou dessa forma.) 
+
+
+Ao longo do curso poderei adicionar mais códigos aqui, até mesmo para lembrar e continuar práticando, obrigada.
+

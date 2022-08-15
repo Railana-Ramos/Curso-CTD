@@ -1,3 +1,2 @@
-Aula = Aula.
-Número = Número da Aula ou Matéria.
-B (número) = Bimestre da Aula.
+Aula (Número) = Número da Atividade.
+B (Número) = Bimestre da Aula.

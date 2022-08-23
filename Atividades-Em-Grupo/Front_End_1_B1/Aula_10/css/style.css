@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://wallpaper.dog/large/17014328.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+            /* header   */
+.descont {
+    position: relative;
+    color: #000000;
+    background-color: #019916;
+    padding: 5px 25px 5px 25px;
+    font-weight: bold;
+}
+.descont:hover{
+    cursor: pointer;
+    background-color: #00fc22;
+    color: #000000;
+}
+
+.tittle-one{
+    font-size: 25px;
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 25px;
+    font-weight: bold;
+    width: 100%;
+}
+.tittle-one:hover{
+    background-color: #202020;
+}
+
+            /* return */
+.return{
+    z-index: 100;
+    position: fixed;
+    right: 20px;
+    bottom: 10px; 
+}
+
+.return img{
+    width: 80px;
+    height: 80px;
+}
+
+        /* card-character */
+
+.card-character {
+    max-height: 775px;
+    filter: grayscale(1);
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 20px 0px 30px 20px;
+    border-radius: 50px 50px 0 0px;
+}
+.card-character:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+
+.card-character .background-character{
+    border-radius: 50px 50px 0 0px;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-character .profile-character{
+    position: absolute;
+    left:150px;
+    top: 140px;
+    display: block;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card-character h2{
+    text-align: center;
+    margin-top:  75px;
+}
+
+.card-character p{
+    line-height: 1.5;
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+}
+
+.fa-solid {
+    position: absolute;
+    right: 120px;
+    top: 250px;
+}
+.fa-solid:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.card-character button{
+    font-size: 16px;
+    margin: 0 120px 20px;
+    width: 150px ;
+    height: 50px;
+    background-color: #001c57;
+    color: #ffffff;
+    border: 1px solid #001c57;
+}
+.card-character button:hover{
+    cursor: pointer;
+    background-color: #0546d1;
+    box-shadow: 0px 0px 0px 2px rgb(255, 255, 255) inset;
+}
+
+            /* footer */
+
+.credits {
+    color: #ffffff;
+    background-color: #001c57;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}

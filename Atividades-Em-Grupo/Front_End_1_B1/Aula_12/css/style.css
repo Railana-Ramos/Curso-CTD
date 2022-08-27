@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+            /* top offert */
+
+.top-offert{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: white;
+    padding: 2px;
+    align-items: center;
+    width: 100%;
+}
+
+.top-offert div{
+    margin: 0 40px 0 100px;
+}
+
+.top-offert p {
+    font-size: 16px;
+}
+
+.top-offert select{
+    width: 120px;
+    padding: 7px 10px 7px 12px;
+    border: none;
+    background: #222222;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    color: white;
+}
+
+                    /* nav bar */
+
+.nav-bar{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    background: #F0A83E;
+    padding: 25px;
+    width: 100%;
+}
+
+.logo {
+    flex-wrap: wrap;
+    margin-left: 30px;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.logo img{
+    width: 37px;
+    height: 30px;
+}
+.logo h1{
+    font-size: 35px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+                    /* nav bar items */
+.nav-bar-top{
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 20px;
+}
+.nav-bar-top ul{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+.nav-bar-top li{
+    color: white;
+    margin: 10px;
+}
+
+.nav-bar-top img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-bar-top ul li:hover{
+    cursor: pointer;
+    color: #3C2313;
+}
+
+
+            /* banner */
+.banner-image{
+    background-image: url(../imgs/Banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 680px;
+}
+
+.text-banner{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 150px;
+
+}
+.text-banner h6 {
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-weight: lighter;
+}
+
+.text-banner p {
+    color: #3C2313 ;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.text-banner button{
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+}
+.text-banner p, h6:hover{
+    cursor:default;
+}
+.text-banner button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+                /* featured-products nav */
+
+
+.featured-products-nav { 
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: wrap;
+}
+
+.featured-products-nav img {
+    width: 90px;
+    height: 100px;
+    margin-left: 15px;
+   
+}
+.featured-products-nav h2{
+    padding: 5px;
+    font-size: 40px;
+    color: #3C2313;
+
+}
+.featured-products-nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.featured-products-nav li{
+  margin: 15px;
+}
+
+.featured-products-nav:hover{
+    cursor: default;
+}
+.featured-products-nav ul li:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+                        /* featured-products */
+
+
+.products{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.products div{
+    margin: 0 20px 0 0;
+}
+
+.products img{
+    width: 300px;
+    height: 300px;
+}
+
+.products div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.div-card-product{
+    background-color: #FBFAF6;
+    padding-bottom: 20px
+}
+
+.div-card-product p {
+    font-weight:bold;
+    line-height: 20px;
+}
+                            /* contact */
+.contact{
+    text-align: center;
+    border: none;
+}
+.contact legend{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact input{
+    color: #FFFFFF;
+    text-align: left;
+    background-color: #3C2313;
+    padding: 20px 200px 20px 20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+
+.contact input::placeholder{
+    color: #FFFFFF;
+}
+
+.contact button{
+    margin: 20px 10px 0 0;
+    padding: 10px 40px 10px 40px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+}
+.button-clear{
+    background-color: #8A8787;
+    color: #FFFFFF;
+}
+.button-submit{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+}
+
+.contact button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+                                    /* newsletter */
+.newsletter{
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    align-items: center;
+    width: 100%;
+}
+.image-newsletter{
+    display: flex;
+    align-items: center;
+}
+.newsletter img{
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.newsletter p {
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.newsletter input{
+    background-color: white;
+    padding: 10px 80px 10px 15px;
+    border-radius: 20px;
+}
+.newsletter button{
+    background-color: #3C2313;
+    color: #FFFFFF;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.newsletter button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+                             /* footer */
+
+
+
+.container-footer{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3C2313;
+    width: 100%px;
+    padding: 20px;
+    align-items: center;
+}
+.card-communication{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.card-communication img{
+    width: 80px;
+    height: 80px;
+}
+
+.card-communication h3{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.card-communication p{
+    color: #838181;
+    font-size: 15px;
+    margin-left: 20px;
+}
+                        /* copyright */
+.copyright{
+    font-size: 13px;
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2px;
+}
+    
+
+
+
+
+/* paleta de cores */
+
+
+.color-1{
+   color: #3C2313; 
+}
+
+.color-2{
+    color: #F0A83E;
+}

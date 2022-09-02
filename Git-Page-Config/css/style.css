@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    font-family: 'Abel', sans-serif;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-light-blue-texture-banner-background-bluetexture-background-image_83265.jpg');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+                  /* header-menu */
+
+.menu {
+    background-color:rgb(250, 235, 215);
+    color: rgb(83, 83, 83);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.menu img{
+    width: 100px;
+    height: 100px;
+}
+
+.menu-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.menu h1{
+    font-size: 50px;
+}
+
+.menu p {
+    font-size: 30px;
+}
+
+.menu:hover{
+    cursor:default;
+    color: rgb(161, 161, 161);
+}
+
+
+
+
+                   /* main-content */
+
+.main-content{
+    border-top: 15px dotted white;
+    margin: -6px;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+ 
+    margin-top: 50px;
+    gap: 100px;
+    font-size: 20px;
+    height: 100vh;
+}
+
+
+.my-information, .my-activities {
+    background-color: rgb(247, 238, 228);
+    width: 400px;
+    height: fit-content;
+    padding: 40px;
+    border-radius: 10%;
+    text-align: center;
+    list-style-position:inside;
+    color: rgb(119, 151, 119);
+    box-shadow: 0px -5px 10px 0px rgba(190, 190, 190, 0.5)
+
+}
+.my-activities {
+    padding-bottom: 80px;
+}
+
+.my-activities a{
+    color: inherit;
+}
+
+.active-materials{
+    margin: 10px;
+}
+
+.my-information:hover, .my-activities:hover{
+    cursor: default;
+    transform: scale(1.1);
+}
+.my-activities a:hover{
+    color: rgb(157, 212, 90);
+    cursor: pointer;
+}
+
+
+                /* footer */
+.social{
+    width: 100%;
+    background-color: rgb(250, 235, 215);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 50px;
+    color: rgb(161, 161, 161);
+}
+.icons {
+    display: flex;
+    gap: 50px;
+}
+
+.icons a{
+    color: inherit;
+}
+
+.icons a:hover{
+    color:  rgb(157, 212, 90);
+}
+
+
+
+                                /* media */
+
+@media (max-width: 810px){
+
+    .cards, .my-activities, .my-information, .menu{ 
+        height: fit-content;
+    }
+
+    .menu {
+        text-align: center;
+        flex-direction: column;
+        
+    }
+
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-activities{
+        margin-bottom: 60px;
+    }
+
+
+}
+
+@media (max-width:435px){
+
+    .cards, .my-activities, .my-information, .menu{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .menu-text p{
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    .menu-text h1{
+        font-size: 30px;
+    }
+
+    .social{
+        width: 100%;
+        padding: 25px;
+    }
+   .icons{
+        font-size: 40px;
+        justify-content: center;
+    }
+
+    .my-information:hover, .my-activities:hover{
+        transform: none;
+    }
+}

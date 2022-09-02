@@ -72,7 +72,7 @@ body{
 }
 
 
-.my-information, .my-activities {
+.my-activities {
     background-color: rgb(247, 238, 228);
     width: 400px;
     height: fit-content;
@@ -84,19 +84,16 @@ body{
     box-shadow: 0px -5px 10px 0px rgba(190, 190, 190, 0.5)
 
 }
-.my-activities {
-    padding-bottom: 80px;
+.my-activities h3{
+    margin: 10px;
+    color: rgb(109, 109, 109);
 }
 
 .my-activities a{
     color: inherit;
 }
 
-.active-materials{
-    margin: 10px;
-}
-
-.my-information:hover, .my-activities:hover{
+.my-activities:hover{
     cursor: default;
     transform: scale(1.1);
 }
@@ -136,7 +133,7 @@ body{
 
 @media (max-width: 810px){
 
-    .cards, .my-activities, .my-information, .menu{ 
+    .cards, .my-activities, .menu{ 
         height: fit-content;
     }
 
@@ -160,7 +157,7 @@ body{
 
 @media (max-width:435px){
 
-    .cards, .my-activities, .my-information, .menu{
+    .cards, .my-activities, .menu{
         width: 100%;
         height: fit-content;
     }
@@ -182,7 +179,7 @@ body{
         justify-content: center;
     }
 
-    .my-information:hover, .my-activities:hover{
+    .my-activities:hover{
         transform: none;
     }
 }

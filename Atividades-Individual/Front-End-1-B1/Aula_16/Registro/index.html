@@ -19,7 +19,7 @@
                 </div>
                 <div class="nav-list">
                     <ul>
-                        <li> <a href="">Home</a></li>
+                        <li> <a href="https://railana-ramos.github.io/Curso-CTD/Atividades-Individual/Front-End-1-B1/CheckPoint_1_FG/index.html">Home</a></li>
                         <li> <a href="">Personagens</a></li>
                         <li> <a href="../Aula_16/contatos/index.html">Contato</a></li>
                         <li> <a href="../Aula_16/index.html">Conta</a></li>
@@ -34,18 +34,25 @@
         <div class="form-contact">
             
             <form>
-                <h1>Login</h1>
-                <input type="text" id="name" placeholder="Nome e Sobrenome">
-                <input type="password" id="password" placeholder="Número de telefone">
+                <h1>Registro</h1>
+                <input type="text" id="name" placeholder="Nome e Sobrenome" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Senha" required>
+                <input type="tel" id="phone" placeholder="Número de telefone" required>
+                <select name="pais" id="">
+                    <option value="Brasil"> Brasil </option>
+                    <option value="USA">Estados Unidos</option>
+                    <option value="Chile">Chile</option>
+                </select>
         
                 <div class="input-button">
 
-                    <input type="button" value="Entrar">
+                    <input type="submit" value="Entrar">
                     
                 </div>
 
                 <div class="new-account">
-                    <p>Não possui uma conta? <a href="../Registro/index.html">Registre-se</a></p>
+                    <p>Já possui uma conta? <a href="../Login/index.html">Entre!</a></p>
                 </div>
 
             </form>

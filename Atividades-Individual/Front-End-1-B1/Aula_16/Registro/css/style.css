@@ -69,34 +69,69 @@ body{
 }
 
                 /* main content  */
-
-.button-content{
+.form-contant-main{
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
-    gap: 30px;
 }
 
-.loggin, .signin {
-    padding: 30px 50px 30px 50px;
-    font-size: 30px;
+.form-contact input::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.form-contact form{
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.form-contact h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-contact input, select{
+    width: 100%;
+    height: 60px;
+}
+
+.input-button {
+
+    width: 60%;
+    margin: 20px auto 10px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.new-account{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.input-button input{
     background-color: rgb(255, 218, 9);
     color: rgb(45, 140, 218);
     border: 1px solid rgb(235, 225, 173);
-    flex-wrap: wrap;
-    width: 350px;
-    border-radius: 20px;
+    border-radius: 200px;
 }
 
-.loggin:hover, .signin:hover{
+.input-button input:hover{
+    background-color: rgb(153, 255, 0);
+    border: none;
     transform: scale(1.1);
-    cursor: pointer;
 }
 
-
-    /* fotter social */
+/* fotter social */
 
 .social{
     width: 100%;
@@ -107,7 +142,7 @@ body{
     flex-direction: row;
     font-size: 50px;
     color: rgb(45, 140, 218);
-}
+    }
 
 .icons {
     display: flex;
@@ -122,12 +157,18 @@ body{
     color:  rgb(157, 212, 90);
 }
 
+                    /* colors */
+
+
+
+
                         /* media  */
 
 @media (max-width: 960px){
     .nav-top img{
         margin: 0;
     }
+
 }
 
 @media(max-width: 720px){
@@ -141,8 +182,11 @@ body{
         text-align: center;
         font-size: 40px;
 }
+    .form-contact form{
+        width: 400px;
+    }
+    
 }
-
 
 @media (max-width: 400px) {
      .descont {
@@ -155,6 +199,9 @@ body{
         width: 100%;
         font-size: 20px;
      }
+     .form-contact form{
+        width: 100%;
+    }
 }
 
 @media (max-width: 300px) {
@@ -167,3 +214,9 @@ body{
         font-size: 25px;
     }
 }
+
+
+
+
+
+

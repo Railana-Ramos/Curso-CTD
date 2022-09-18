@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fbddcb0845.js" crossorigin="anonymous"></script>
+    <title>Atividade 16</title>
+</head>
+<body>
+    <header>
+        <div class="descont">
+            <p>30% de desconto em todos os produtos!</p>
+        </div>
+            <div class="nav-top">
+                <div class="logo-top">
+                    <img src="./imgs/Logo.png" alt="">
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li> <a href="https://railana-ramos.github.io/Curso-CTD/Atividades-Individual/Front-End-1-B1/CheckPoint_1_FG/index.html">Home</a></li>
+                        <li> <a href="https://railana-ramos.github.io/Curso-CTD/Atividades-Individual/Front-End-1-B1/CheckPoint_1_FG/index.html">Personagens</a></li>
+                        <li> <a href="../contatos/index.html">Contato</a></li>
+                        <li> <a href="../index.html">Conta</a></li>
+                    </ul>
+            </div>
+        </div>
+</header>
+
+<main>
+
+<section class="card-add-info">
+
+<form>
+    <div class="container-info">
+
+        <h1>Adicionar um personagem</h1>
+        <p>Adicione seu personagem favorito completando com as informações</p>
+
+                                    <!-- fist card -->
+
+            <div class="card-add-info input-type1">
+
+                <div class="form-column">
+                    <label for="name-character">*Nome</label>
+                    <input type="text" name="name" id="name-character" placeholder="Nome do personagem" required>
+                </div>
+
+                <div class="form-column">
+
+                    <label for="family-character">Familia</label>
+                    <select name="family" id="family-character">
+                        <option value="">Griffin</option>
+                        <option value="">Quagmire</option>
+                        <option value="">Swanson</option>
+                        <option value="">Brown</option>
+                        <option value="">Outro</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+                                     <!-- second card -->
+
+            <div class="card-add-info">
+
+                <div class="form-column input-type1">
+
+                    <label for="date-character">Data de nascimento</label>
+                    <input type="date" id="date-character" name="date">
+
+                </div>
+
+                <div class="form-column input-type2">
+
+                    <label for="file-upload"> *Adicionar Foto</label>
+                    <input type="file" name="photo" id="file-upload" accept="image/png, image/jpg, image/gif, image/jpeg" required>
+
+                </div>
+
+            </div>
+
+                                    <!-- third card -->
+
+            <div class="card-add-info">
+
+                <div class="form-column input-type3">
+                    <label for="add-info-character">*Descrição do personagem</label>
+                    <textarea name="add-info" id="add-info-character" cols="30" rows="10" placeholder="Digite uma breve descrição sobre a história do personagem." required></textarea>
+                </div>
+
+                <div>
+
+                    <div class="checkbox-container">
+
+                            <label class="label-tittle"> Característica </label>
+                            
+                            <div>
+
+                                <div>
+                                    <input type="checkbox" name="skills" id="fun"> <label for="fun">Engraçado</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="skills" id="fun"> <label for="fun">Engraçado</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="skills" id="humor"> <label for="humor">Humor Pesado</label>
+                                </div>
+                               <div>
+                                <input type="checkbox" name="skills" id="useless"> <label for="useless">Inutil</label>
+                               </div>
+    
+                            </div>
+                    </div>
+
+                    <div class="line"></div>
+    
+                    <div class="checkbox-container">
+
+                        <label class="label-tittle">Tipo de Personagem</label>
+    
+                        <input type="radio" name="type-character" id="main-character"> <label for="main-character">Principal</label>
+                        <input type="radio" name="type-character" id="secondary-character"> <label for="secondary-character">Secundário</label>
+        
+                    </div>
+                </div>
+            </div>
+
+                                         <!-- submit -->
+
+                <div class="container-info">
+                    <button class="input-type4">Enviar</button>
+                </div>
+
+
+</form>
+
+</section>
+
+</main>
+    
+
+
+    <footer class="social">
+        
+        <div class="icons">
+
+            <a href="https://github.com/Railana-Ramos/" target="_blank"> <i class="fa-brands fa-github"></i> </a>
+            <a href="https://www.linkedin.com/in/railana-ramos/" target="_blank"><i class="fa-brands fa-linkedin"></i> </a>
+
+        </div>
+        
+    </footer>
+</body>
+</html>

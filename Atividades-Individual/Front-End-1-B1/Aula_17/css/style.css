@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://img4.goodfon.com/wallpaper/big/1/2e/multfilm-shou-simpsons-personazh-20th-century-fox-art-ris-15.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+                                /* header */
+
+.descont {
+    background-color: rgb(78, 207, 4);
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.descont p {
+    margin-left: 50px;
+}
+.descont:hover{
+    background-color: rgb(123, 255, 0) ;
+    cursor: pointer;
+}
+
+.nav-top{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 218, 9);
+    padding: 20px;
+}
+
+.nav-top img{
+    width: 250px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.nav-top ul{
+    font-size: 27px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: rgb(45, 140, 218);
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.nav-top a{
+    color: inherit;
+}
+
+.nav-top li:hover{
+    color: rgb(180, 4, 4);
+}
+
+                /* main content  */
+
+
+.card-add-info{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 100%;
+    align-items: center;
+}
+
+.container-info {
+    background-color: rgb(45, 140, 218);
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    
+    color: rgb(255, 218, 9);
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+.container-info h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.container-info p {
+    text-align: center;
+    font-size: 15px;
+}
+.card-add-info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.form-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-info label{
+    margin-bottom: 10px;
+}
+                    /* input types */
+
+.input-type1 input, select{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px  solid yellow;
+}
+
+.input-type2 input {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.input-type3 textarea{
+    width: 250px;
+    height: 250px;
+    font-size: 15px;
+    border: 1px  solid yellow;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-type4{
+    align-self: center;
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color: rgb(255, 218, 9);
+    color: rgb(45, 140, 218);
+    border: 1px solid rgb(235, 225, 173);
+}
+
+.input-type4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+                            /* ... */
+
+.checkbox-container {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin:20px 0 20px 0;
+}
+.checkbox-container input{
+    text-align: left;
+}
+
+.label-tittle{
+    margin-bottom: 10px;
+    font-size: 25px;
+    align-self: center;
+}
+
+.line{
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+/* fotter social */
+
+.social{
+    width: 100%;
+    background-color: rgb(255, 218, 9);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 50px;
+    color: rgb(45, 140, 218);
+    }
+
+.icons {
+    display: flex;
+    gap: 50px;
+}
+
+.icons a{
+    color: inherit;
+}
+
+.icons a:hover{
+    color:  rgb(157, 212, 90);
+}
+
+                    /* colors */
+
+
+
+
+                        /* media  */
+
+@media (max-width: 960px){
+    .nav-top img{
+        margin: 0;
+    }
+
+}
+
+@media(max-width: 768px){
+    .nav-top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-top ul {
+        margin-top: 20px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 40px;
+}
+    .form-contact form{
+        width: 400px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+     .descont {
+        text-align: center;
+     }
+     .descont p{
+        margin: 0;
+     }
+     .loggin, .signin{
+        width: 100%;
+        font-size: 20px;
+     }
+     .form-contact form{
+        width: 100%;
+    }
+}
+
+@media (max-width: 300px) {
+    .nav-top img{
+        width: 100%;
+        height: 150px;
+        margin: 0;
+    }
+    .nav-top ul {
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+

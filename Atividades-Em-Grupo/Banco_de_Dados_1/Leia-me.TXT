@@ -1,0 +1,2 @@
+Aula (Número) = Número da Atividade.
+B (Número) = Bimestre da Aula.

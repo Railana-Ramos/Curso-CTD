@@ -1,0 +1,245 @@
+@import url(var.css);
+
+nav {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  position: fixed !important;
+  z-index: 10;
+  color: #626262;
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar-person {
+  width: 100%;
+  justify-content: end;
+  padding-right: 12px;
+}
+
+.nav-link {
+  color: var(--base-beige) !important;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+  text-align: center;
+}
+
+.active .nav-link {
+  color: var(--base-brown) !important;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.navbar-toggler span {
+  color: #171717 !important;
+}
+
+/*--- FIM DO MENU----*/
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    background-image: url("../images/to01.webp");
+    background-position: center;
+  
+    /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5%;
+    color: white;
+    align-items: flex-end;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 50px 0 0 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .parallax-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5%;
+    color: white;
+    align-items: flex-end;
+    background-color: #fff;
+  }
+  
+  .parallax-content h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 84px;
+    color: var(--base-brown);
+  }
+  
+  .banner-content h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 84px;
+    color: var(--base-beige);
+  }
+  
+  .banner-content span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+  
+    color: var(--base-brown);
+  }
+
+  /*---- CARDS ----*/
+
+.container .card
+{
+    max-width: 300px;
+    height: 215px;
+    margin: 100px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover
+{
+    height: 450px;
+}
+.container .card .imgContainer
+{
+    position: relative;
+    width:250px;
+    height:250px;
+    top:-50px;
+    left:10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgContainer img
+{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.container h2 {
+  font-family: "Roboto";
+  font-weight: 16px;
+  color: #734230;
+}
+
+h1 {
+  font-family: "Roboto";
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+  line-height: 84px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #734230;
+  padding: 60px 150px;
+}
+
+/* ---- Footer ----- */
+
+footer {
+    flex: 1;
+    background-color: #171717;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: white;
+  }
+  
+  .footer-content p,
+  i {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .footer-student {
+    padding: 10px 0;
+  }
+  
+  .footer-final p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .icon-list img {
+    margin-right: 8px;
+  }
+  
+  .active {
+    color: #e51b3e !important;
+    cursor: default;
+  }
+  
+  @media screen and (min-width: 767px) {
+    .content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 20px 100px;
+    }
+  
+    .content .card-background {
+      width: 33.33%;
+      transform: scale(0.95);
+      transition: transform 0.2s ease;
+    }
+  
+    .content .card-background:hover {
+      transform: scale(0.965);
+    }
+  
+    .footer-content {
+      flex-direction: row;
+    }
+  
+    .footer-final {
+      width: 100%;
+    }
+  }

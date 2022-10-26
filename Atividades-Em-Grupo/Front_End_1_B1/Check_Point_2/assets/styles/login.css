@@ -1,0 +1,82 @@
+.cursor-default:hover {
+  cursor: default;
+}
+
+.text-custom {
+  padding: 0 !important;
+  color: var(--base-brown);
+  transition: all 0.2s ease;
+}
+
+.button-custom button {
+  padding: 15px 60px 15px 60px;
+  background-color: var(--base-brown) !important;
+  border: none !important;
+  transition: all 0.2s ease;
+}
+
+.button-custom button:hover {
+  background-color: #8a5e4e !important;
+}
+
+/* elements together */
+.link-inherit a {
+  color: inherit !important;
+  transition: all 0.2s ease;
+}
+
+.link-inherit a:hover {
+  color: var(--base-beige) !important;
+}
+
+.icon-custom {
+  color: var(--base-brown) !important;
+  font-size: 20px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.icon-custom:hover {
+  opacity: 0.9;
+}
+
+.social-text {
+  color: gray;
+}
+
+/* Animations */
+
+.animation-tittle{
+  animation: GoinToLeft;
+  animation-duration: 1.5s;
+}
+@keyframes GoinToLeft{
+  from {
+    margin-left: -500px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+
+.animation-text{
+  animation: GoinToTop;
+  animation-duration: 1s;
+}
+
+@keyframes GoinToTop{
+  from {
+    margin-bottom: 1000px;
+  }
+  to {
+    margin-bottom: 0px;
+  }
+}
+
+  /* media  */
+
+@media (max-width: 260px) {
+  .button-custom button {
+    padding: 20px !important;
+  }
+}

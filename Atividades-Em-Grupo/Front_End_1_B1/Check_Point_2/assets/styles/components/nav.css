@@ -1,0 +1,24 @@
+.nav-link {
+  color: var(--base-beige) !important;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+  text-align: center;
+}
+
+.active .nav-link {
+  color: var(--base-brown) !important;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.navbar-toggler span {
+  color: #171717 !important;
+}
+
+.navbar-person {
+  width: 100%;
+  justify-content: end;
+  padding-right: 12px;
+}

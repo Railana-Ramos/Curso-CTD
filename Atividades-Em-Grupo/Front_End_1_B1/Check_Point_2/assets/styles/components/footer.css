@@ -1,0 +1,52 @@
+/* Footer */
+footer {
+  flex: 1;
+  background-color: #171717;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 30px;
+  color: white;
+}
+
+.footer-content p,
+i {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-student {
+  padding: 10px 0;
+}
+
+.footer-final p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0;
+
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 60px;
+}
+
+@media screen and (min-width: 767px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+  }
+
+  .footer-content {
+    flex-direction: row;
+  }
+
+  .footer-final {
+    width: 100%;
+  }
+}

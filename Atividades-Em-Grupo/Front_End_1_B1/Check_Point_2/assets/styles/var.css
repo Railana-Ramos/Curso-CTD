@@ -1,0 +1,19 @@
+:root {
+  --base-brown: #734230;
+  --base-beige: #a69898;
+  --base-white: #f2f2f2;
+  --base-grey: #d9d9d9;
+  --base-black: #0d0d0d;
+}
+
+.text-brown {
+  color: var(--base-brown);
+}
+
+.text-beige {
+  color: var(--base-beige);
+}
+
+.font-black {
+  color: var(--base-black);
+}

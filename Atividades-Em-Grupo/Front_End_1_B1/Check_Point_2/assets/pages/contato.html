@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rava | Contato</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles/layout.css" />
+    <link rel="stylesheet" href="../styles/contato.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="imagem/png" href="../images/logo_rava.png" />
+
+    <script
+      src="https://kit.fontawesome.com/cc47c4ab6f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light d-fixed">
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand" href="../../index.html">
+          <img height="50px" src="../images/logo_rava.png" alt="logo_RAVA" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="material-symbols-outlined"> menu </span>
+        </button>
+
+        <div class="collapse navbar-collapse navbar-person" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item item-menu">
+              <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item item-menu">
+              <a class="nav-link" href="../pages/paises.html">Paises</a>
+            </li>
+            <li class="nav-item item-menu active">
+              <a class="nav-link" href="../pages/contato.html">Contato</a>
+            </li>
+            <li class="nav-item item-menu">
+              <a class="nav-link" href="../pages/auth/login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="pt-5 section-login">
+        <!-- Jumbotron -->
+        <div class="px-4 py-5 px-md-5 text-center text-lg-start">
+          <div
+            class="container d-flex align-items-center justify-content-center"
+          >
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <div class="card shadow-sm">
+                <div class="card-body py-5 px-md-5">
+                  <!-- Forms -->
+                  <form>
+                    <div
+                      class="text-center animate__animated animate__fadeInDown animation"
+                    >
+                      <h2 class="mb-4">Entre em contato conosco!</h2>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 mb-4 mt-3">
+                        <div class="form-outline">
+                          <label class="form-label" for="form3Example1"
+                            >Nome</label
+                          >
+                          <input
+                            type="text"
+                            id="form3Example1"
+                            class="form-control"
+                            placeholder="Nome"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 mb-4 mt-3">
+                        <div class="form-outline">
+                          <label class="form-label" for="form3Example2"
+                            >Sobrenome</label
+                          >
+                          <input
+                            type="text"
+                            id="form3Example2"
+                            class="form-control"
+                            placeholder="Sobrenome"
+                            required
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <label class="form-label" for="form3Example3"
+                        >Email</label
+                      >
+                      <input
+                        type="email"
+                        id="form3Example3"
+                        class="form-control"
+                        placeholder="Digite seu email"
+                        required
+                      />
+                    </div>
+
+                    <!-- Mensage  -->
+                    <div class="mb-3">
+                      <label
+                        for="exampleFormControlTextarea1"
+                        class="form-label"
+                        >Mensagem:</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                      ></textarea>
+                    </div>
+
+                    <!-- Submit button -->
+
+                    <div
+                      class="d-flex justify-content-center mb-3 mt-4 button-custom"
+                    >
+                      <button
+                        type="submit"
+                        class="btn btn-primary btn-block mb-4"
+                      >
+                        Enviar
+                      </button>
+                    </div>
+
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                      <div class="pb-3">
+                        <p class="social-text">
+                          Se preferir, entre em contato nas redes sociais:
+                        </p>
+                      </div>
+                      <div>
+                        <button
+                          type="button"
+                          class="btn btn-link btn-floating mx-1"
+                        >
+                          <i
+                            class="fa-brands fa-square-facebook icon-custom"
+                          ></i>
+                        </button>
+
+                        <button
+                          type="button"
+                          class="btn btn-link btn-floating mx-1"
+                        >
+                          <i class="fab fa-google icon-custom"></i>
+                        </button>
+
+                        <button
+                          type="button"
+                          class="btn btn-link btn-floating mx-1"
+                        >
+                          <i class="fab fa-twitter icon-custom"></i>
+                        </button>
+
+                        <button
+                          type="button"
+                          class="btn btn-link btn-floating mx-1"
+                        >
+                          <i class="fa-brands fa-instagram icon-custom"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content text-center">
+          <div class="footer-student">
+            <h3>Victor da Silva</h3>
+            <p>Responsável pelo desenvolvimento da página inicial e responsividade</p>
+            <div class="icon-list">
+              <a href="https://www.linkedin.com/in/victordasilvafernandes/"
+                ><img src="../images/icons/linkedin.png" alt="linkedin icon"
+              /></a>
+              <a href="https://github.com/VictordaSilvaf"
+                ><img src="../images/icons/github.png" alt="github icon"
+              /></a>
+            </div>
+          </div>
+
+          <div class="footer-student">
+            <h3>Ariane Santos</h3>
+            <p>Responsável pelo desenvolvimento das páginas de paises.</p>
+            <div class="icon-list">
+              <a href="https://www.linkedin.com/in/ariane0212/"
+                ><img src="../images/icons/linkedin.png" alt="linkedin icon"
+              /></a>
+              <a href="https://github.com/ariane0212"
+                ><img src="../images/icons/github.png" alt="github icon"
+              /></a>
+            </div>
+          </div>
+
+          <div class="footer-student">
+            <h3>Railana Ramos</h3>
+            <p>Responsável pelo desenvolvimento das páginas de formulários e login.</p>
+            <div class="icon-list">
+              <a href="https://www.linkedin.com/in/railana-ramos/"
+                ><img src="../images/icons/linkedin.png" alt="linkedin icon"
+              /></a>
+              <a href="https://github.com/Railana-Ramos"
+                ><img src="../images/icons/github.png" alt="github icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-final">
+          <p>Checkpoint 2 desenvolvido em 2022</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

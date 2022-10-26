@@ -1,0 +1,19 @@
+nav {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  position: fixed !important;
+  z-index: 10;
+  color: #626262;
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.active {
+  color: var(--base-brown);
+  cursor: default;
+}

@@ -1,0 +1,11 @@
+@import url(var.css);
+@import url(./components/menu.css);
+@import url(./components/nav.css);
+@import url(./components/footer.css);
+
+main {
+  padding-top: 8vh;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+  padding-bottom: 50px;
+}

@@ -16,17 +16,22 @@ function pontuacaoMaior(valores){
     if (valores[i] > resultado){
         resultado = valores[i]
     }
-
-
 }
     return resultado
 }
 
+function competicao(p1,p2,p3){
 
-console.log(media(participanteA))
-console.log(media(participanteB))
-console.log(media(participanteC))
+  pontuacaoMaior(p1)
+  pontuacaoMaior(p1)
+  pontuacaoMaior(p3)
+  media(p1)
+  media(p2)
+  media(p3)
 
-console.log(pontuacaoMaior(participanteA))
-console.log(pontuacaoMaior(participanteB))
-console.log(pontuacaoMaior(participanteC))
+ let resultadoFinal = "A maior pontuacao foi "+ Math.max(pontuacaoMaior(p1), pontuacaoMaior(p2), pontuacaoMaior(p3)) +" e a maior média foi " + Math.max(media(p1), media(p2), media(p3)) 
+
+return resultadoFinal
+}
+
+console.log(competicao(participanteA,participanteB,participanteC))
